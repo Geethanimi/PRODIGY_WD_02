@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(clock-img.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h1{
+    text-align: initial;
+    color: #f68b08;
+    margin-top: 2%;
+    font-family: "Roboto",sans-serif;
+    margin-left: 10%;
+    font-size: 70px;
+}
+.container{
+    width: 40%;
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    background: transparent;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    background-color:gray;
+    opacity: 80%;
+    box-shadow: 3px 3px 30px white, -3px -3px 30px white;
+}
+.timer{
+    width: 96%;
+    background-color: #f68b08;
+    padding: 20px ;
+    margin: 10px 10px;
+    border-radius: 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: white;
+    font-family:"Roboto" ,sans-serif;
+}
+.laps{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+.action{
+    width: 85%;
+    margin: 60px auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.action button{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    cursor: pointer;
+}
+button:hover{
+    border-radius: 2px;
+    box-shadow: 3px 3px 10px white, -3px -3px 10px white;
+}
